@@ -9,33 +9,33 @@ import moment from 'moment-timezone'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.botNumber = '' //Ejemplo: 56983073328
+global.botNumber = '' //Ejemplo: 50769345280
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.owner = [
-  ['56983073328', 'MvrcoSexo', true]
+  ['50769345280', 'Plebada', true]
 ];
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.mods = []
-global.suittag = ['56983073328']
+global.suittag = ['50769345280']
 global.prems = []
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.namebot = 'MvrcoSexo'
-global.packname = 'KɪʟʟᴢN'
-global.botname = '@𝖎𝖓𝖊𝖋𝖋𝖆𝖇𝖑𝖊.𝖒𝖛𝖗𝖈𝖔'
+global.namebot = 'Plebada'
+global.packname = '🇵​​​​​🇱​​​​​🇪​​​​​🇧​​​​​🇦​​​​​🇩​​​​​🇦​​​​​'
+global.botname = '🇵​​​​​🇱​​​​​🇪​​​​​🇧​​​​​🇦​​​​​🇩​​​​​🇦​​​​​'
 global.wm = '𝙺𝙸𝙻𝙻 𝙱𝙾𝚃'
-global.author = '@𝖎𝖓𝖊𝖋𝖋𝖆𝖇𝖑𝖊.𝖒𝖛𝖗𝖈𝖔'
-global.dev = 'KɪʟʟᴢN'
+global.author = '🇵​​​​​🇱​​​​​🇪​​​​​🇧​​​​​🇦​​​​​🇩​​​​​🇦​​​​​'
+global.dev = '🇵​​​​​🇱​​​​​🇪​​​​​🇧​​​​​🇦​​​​​🇩​​​​​🇦​​​​​'
 global.club = 'Mᴠʀᴄᴏ Sᴇxᴏ'
 global.textbot = 'Mᴠʀᴄᴏ Sᴇxᴏ'
-global.etiqueta = '@𝖎𝖓𝖊𝖋𝖋𝖆𝖇𝖑𝖊.𝖒𝖛𝖗𝖈𝖔'
+global.etiqueta = '🇵​​​​​🇱​​​​​🇪​​​​​🇧​​​​​🇦​​​​​🇩​​​​​🇦​​​​​'
 global.jadi = 'JadiBots'
-global.sessions = 'MvrcoSession'
+global.sessions = 'PlebadaSession'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
@@ -65,16 +65,16 @@ global.xreg = '🪴'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.github = 'https://github.com/KillzN/MvrcoSexo'
+global.github = 'https://github.com/KillzN/Plebada'
 global.grupo = 'https://chat.whatsapp.com/HqhAoXS8TCcJIn0KrbJZKz'
 global.comu = 'https://chat.whatsapp.com/Ehs4pdSEW4o9ub8G3SPVaT'
 global.channel = 'https://www.whatsapp.com/channel/0029Vb4TKBCD38CNEkfHdj1z'
-global.ig = 'https://www.instagram.com/ineffable.mvrco'
+global.ig = 'https://www.instagram.com/ra_team.5'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.catalogo = fs.readFileSync('./src/catalogo.jpg');
-global.estilo = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "56983073328-120363046971143826@g.us" } : {}) }, message: { orderMessage: { itemCount: -999999, status: 1, surface: 1, message: 'Mvrco Sexo', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net' } } }
+global.estilo = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "50769345280-120363046971143826@g.us" } : {}) }, message: { orderMessage: { itemCount: -999999, status: 1, surface: 1, message: 'Mvrco Sexo', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net' } } }
 global.multiplier = 70
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
